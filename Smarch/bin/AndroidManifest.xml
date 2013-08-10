@@ -15,11 +15,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="kr.co.tangibleidea.smarch.MainActivity"
+            android:name=".smarch.MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
         <activity
-            android:name="kr.co.tangibleidea.smarch.SearchActivity"
+            android:name=".smarch.SearchActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,8 +28,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="kr.co.tangibleidea.smarch.RankActivity"
-            android:label="@string/title_activity_rank" >
+            android:name=".smarch.RankActivity"
+            android:label="Rank" >
         </activity>
     </application>
 
