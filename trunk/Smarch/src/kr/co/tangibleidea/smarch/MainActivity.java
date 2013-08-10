@@ -2,8 +2,8 @@ package kr.co.tangibleidea.smarch;
 
 import java.util.HashMap;
 
+import kr.co.tangibleidea.R;
 import kr.co.tangibleidea.smarch.util.CommonUtil;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -21,8 +21,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.EditText;
-
-import com.example.smarch.R;
 
 public class MainActivity extends FragmentActivity
 {

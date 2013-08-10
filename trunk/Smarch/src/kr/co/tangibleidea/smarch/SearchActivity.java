@@ -1,7 +1,6 @@
 package kr.co.tangibleidea.smarch;
 
-import com.example.smarch.R;
-
+import kr.co.tangibleidea.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -62,6 +61,7 @@ public class SearchActivity extends Activity implements OnClickListener
 		}
 		else if(v.getId()==R.id.btn_rank)
 		{
+			finish();
 			Intent intent= new Intent(SearchActivity.this, RankActivity.class);
 			startActivity(intent);
 		}
